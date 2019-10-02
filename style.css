@@ -93,7 +93,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 7rem;
     z-index: 2;
 }
 
@@ -219,6 +219,7 @@ img {
     margin-top: 2rem;
     border-collapse: collapse;
     border-spacing: 0;
+    overflow-x: auto; 
 }
 
 .table thead th {
@@ -254,6 +255,7 @@ img {
 
 .footer p {
     margin-bottom: 1.5rem;
+    font-size: 1rem;
 }
 
 .footer .footer-cols {
@@ -264,6 +266,10 @@ img {
 
 .footer li {
     line-height: 1.9;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
 
 .container {
